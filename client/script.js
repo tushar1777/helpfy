@@ -74,6 +74,7 @@ const handleSubmit = async (e) => {
     const messageDiv = document.getElementById(uniqueId)
 
     loader(messageDiv)
+    console.log(messageDiv)
 
     const response = await fetch('https://helpfy-xa26.onrender.com', {
         method: 'POST',
