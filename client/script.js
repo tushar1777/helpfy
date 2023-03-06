@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
 
     loader(messageDiv)
 
-    const response = await fetch('https://helpfy-1.onrender.com', {
+    const response = await fetch('https://helpfy-xa26.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
